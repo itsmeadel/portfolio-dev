@@ -15,9 +15,10 @@ body {
     color: lightgray;
 }
 
-a {
+a[href^="_blank"] {
+    color: inherit;
     text-decoration: none;
-    color: white;
+    
 }
 
 section {
